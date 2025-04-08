@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const ActivityType = require('discord.js')
 const { startApiServer } = require('../api/index.js');
+require("./keepAlive.js");
+
 
 
 const loadSlashCommands = require('../Loaders/loadSlashCommands.js');
